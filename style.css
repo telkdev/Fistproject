@@ -1,0 +1,52 @@
+.main {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 15px;
+    background-color: #E7FDF2;
+}
+h2 {
+    color: black;
+}
+.basic {
+    text-align: center;
+}
+.imageishere {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -19px;
+    margin-top: -10px;
+    border-radius: 50%;
+}
+.description {
+    border: 2px solid grey;
+    border-width: thin;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 80%;
+}
+.image {
+    border: 2px solid grey;
+    border-width: thin;
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.imagetitle {
+    background-color:lightgrey;
+    height: 30px;
+    padding-top: 7px;
+}
+.life {
+    text-align: center;
+    padding-top: 10px;
+}
+.biography-list {
+    margin-left: 30px;
+}
+.read_else {
+    text-align: center;
+}
