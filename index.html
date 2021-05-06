@@ -1,60 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Vasilis</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Vasilis</title>
 </head>
+<!-- FORMAT DOCUMENT -->
+
+<!-- what is wrong with format document?-->
+
+<!-- READ ABOUT BEM -->
+
+<!-- i read about him-->
 <body>
-    <div class="main">
+  <!-- use class main on main tag, this wrapper not needed -->
+
+  <!-- ok, and do i need to rewrite class name?-->
     <main class="details">
-        <div class="basic">
+      <div class="basic">
         <h1 class="main_title">Aristotle Onassis</h1>
-        <h2 class="date">1906-1975</h2>
+        <!-- try to use appropriate tag for date(google it) -->
+
+        <!-- i think that i need use tag time? Yes?-->
+        <time class="date">1906-1975</time>
+        <!-- don't use 2 title tags(h2) one each other -->
+        <!-- corrected this problem-->
         <h2 class="subtitle">One of the richest people in the 20th century</h2>
         <p class="description">Aristotle Socrates Onassis (Greek Aprovorunc moons, Aristotelis Onasss, 20 January 1906
-            15 March 1975).[1] commonly called Ari or Aristo Onassis, was a Greek-Argentine shipping
-            magnate, who amassed the world's largest privately owned shipping ﬂeet and was one of the
-            world's richest and most famous men</p>
-            <figure class="image">
-                <p class="imageis"><img class="imageishere" src="file:///C:/Programirovan/Vasilis/Aristotle_Onassis.jpg" alt="Fotography Aristotle Onassis"></p>
-                <figcaption class="imagetitle">The most well-known portrait of Onassis</figcaption>
-            </figure>
+          15 March 1975).[1] commonly called Ari or Aristo Onassis, was a Greek-Argentine shipping
+          magnate, who amassed the world's largest privately owned shipping ﬂeet and was one of the
+          world's richest and most famous men</p>
         </div>
-        <h2 class="life">The following list is a time line of Onassis Life</h2>
-        <ul class="biography-list">
-            <li class="biography-item"><b>1906</b> - born sn Karatas, Smyrna, Ottoman Empire.</li>
-            <li class="biography-item"><b>1922</b> - He left from Smyrna during the great ﬁre of Smyrna in 1922.</li>
-            <li class="biography-item"><b>1932</b> - He went to Buenos Aires, Argentina and start working as a telephone operator.</li>
-            <li class="biography-item"><b>1929</b> - He relocated to New York and started his shipping bisnesses.</li>
-            <li class="biography-item"><b>1946</b> - Onassis married Athina Livanos, daughter of shipping magnate Stavros G. Livanos
-                and Arietta Zafrikakis, on 28 December 1946 The couple had become largely separated
-                by the mid-1905s.</li>
-            <li class="biography-item"><b>1950-1956</b> - Onassis had success whallng off the Peruvian coast.</li>
-            <li class="biography-item"><b>1953</b> - In Monaco he started to purchase the shares of Monaco's SMB using the tax haven
-                of Panama and ﬁnally kake tne control of SBM.</li>
-            <li class="biography-item"><b>1954</b> - Cancelation of the agreement between the Saudi goverment and Aristotle Onassis
-                to transport Saudi oil on his tankers and ‘in any case, to make the aggrement ineffective‘</li>
-            <li class="biography-item"><b>1956</b> - Aristotle Onassis signed a contract granting him the operational rights to the Greek
-                air transport industry. Olympic Airways was founded.</li>
-            <li class="biography-item"><b>1957</b> - Onassis and opera prima donna Maria Callas embarked on an affair despite the
-                fact that they were both married.</li>
-            <li class="biography-item"><b>1966</b> - Rainer of Monaco approved a plan to create 600.000 new shares in SBM reducing
-                Onassis's stake to under a third.</li>
-            <li class="biography-item"><b>1967</b> - Onassis court until he left Monaco.</li>
-            <li class="biography-item">1968 - Onassis announced the launch of Progect Omega, a $400 million investment
-                program that aimed to build considerable infrastructure in Greece including an
-                oil refinery and aluminum smelter.</li>
-            <li class="biography-item"><b>1968</b> - Onassis ended his relationship with Callas to many Jacqueline Kennedy, widow of
-                U.S. President Jonn F. Kennedy.</li>
-            <li class="biography-item"><b>1975</b> - Onassis died at age 69 on 15 March 1975 at the American Hospital of Paris in
-                Neuilly-usr-Seine, France,of respiratory failure a complication of the myasthenia gravis
-                from which he had been suffering during the last years of his life.</li>
-        </ul>
-        <p class="read_else">Read more about Aristotle Onassis on <a href="https://en.wikipedia.org/wiki/Aristotle_Onassis" title="Webpage Aristotle Onassis on Wiki">wikipedia.</a></p>
+        <!-- image is tag image, not tag figure, use class image-figure for wrapper for example -->
+
+        <!-- Rewrite this, is it good?-->
+        <div class="image">
+          <!-- why do you need tag p here? -->
+
+          <!-- used p on downside of block-->
+
+          <!-- why do you use class imageis, it has no meaning -->
+          <!-- used another class, i thought it is normal-->
+
+            <!-- add path to image -->
+            <a href="https://picsum.photos/200/300">
+            <img class="image_link" src="https://picsum.photos/200/300"
+              alt="Fotography Aristotle Onassis"> </a>
+              <p class="image_text">The most well-known portrait of Onassis</p>
+          </div>
+      <!-- you have 3 h2 tags, use it in hierarchy order(h2, h3, h4) -->
+      <!-- i thought that i need two h2 tag in this task-->
+      <h2 class="life">The following list is a time line of Onassis Life</h2>
+      <ul class="biography-list">
+        <!-- try to use appropriate tag for date(google it) -->
+        <!-- format it like this -->
+        <!-- Rewrite, check him, please-->
+        <li class="biography-item">
+          <time>1906</time> - born sn Karatas, Smyrna, Ottoman Empire.
+        </li>
+        <li class="biography-item">
+          <time>1922</time> - He left from Smyrna during the great ﬁre of Smyrna in 1922.
+        </li>
+        <li class="biography-item">
+          <time>1932</time> - He went to Buenos Aires, Argentina and start working as a telephone operator.
+        </li>
+        <li class="biography-item">
+          <time>1929</time> - He relocated to New York and started his shipping bisnesses.
+        </li>
+        <li class="biography-item">
+          <time>1946</time> - Onassis married Athina Livanos, daughter of shipping magnate Stavros G. Livanos and Arietta Zafrikakis,
+           on 28 December 1946 The couple had become largely separatedby the mid-1905s.
+        </li>
+        <li class="biography-item">
+          <time>1950-1956</time> - Onassis had success whallng off the Peruvian coast.
+        </li>
+        <li class="biography-item">
+          <time>1953</time> - In Monaco he started to purchase the shares of Monaco's SMB using the tax haven
+           of Panama and ﬁnally kake tne control of SBM.
+        </li>
+        <li class="biography-item">
+          <time>1954</time> - Cancelation of the agreement between the Saudi goverment and Aristotle Onassis
+           to transport Saudi oil on his tankers and ‘in any case, to make the aggrement ineffective‘
+        </li>
+        <li class="biography-item">
+          <time>1956</time> - Aristotle Onassis signed a contract granting him the operational rights to the Greek 
+          air transport industry. Olympic Airways was founded.
+        </li>
+        <li class="biography-item">
+          <time>1957</time> - Onassis and opera prima donna Maria Callas embarked on an affair
+           despite the fact that they were both married.
+        </li>
+        <li class="biography-item">
+          <time>1966</time> - Rainer of Monaco approved a plan to create 600.000 new shares
+           in SBM reducing Onassis's stake to under a third.
+        </li>
+        <li class="biography-item">
+          <time>1967</time> - Onassis court until he left Monaco.
+        </li>
+        <li class="biography-item">
+          <time>1968</time> - Onassis announced the launch of Progect Omega, a $400 million investment
+          program that aimed to build considerable infrastructure in Greece including an
+          oil refinery and aluminum smelter.
+        </li>
+        <li class="biography-item">
+          <time>1968</time> - Onassis ended his relationship with Callas
+           to many Jacqueline Kennedy,widow of U.S. President Jonn F. Kennedy.
+        </li>
+        <li class="biography-item">
+          <time>1975</time> - Onassis died at age 69 on 15 March 1975 at the American Hospital of
+          Paris in Neuilly-usr-Seine, France,of respiratory failure a complication of the myasthenia gravis
+          from which he had been suffering during the last years of his life.
+        </li>
+      </ul>
+      <p class="read_else">Read more about Aristotle Onassis on <a
+          href="https://en.wikipedia.org/wiki/Aristotle_Onassis"
+          title="Webpage Aristotle Onassis on Wiki">wikipedia.</a></p>
     </main>
-</div>
 </body>
+
 </html>
