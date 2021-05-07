@@ -1,16 +1,21 @@
-/* format styling */
+/* format styling 
+i'll show
+*/
 
 /* what? not understant what do you say this text */
 
 /* remove default styling from body/h1,h2, ul,li etc */
 
-/* what? not understant what do you say this text */
+/* what? not understant what do you say this text 
+almost every tag has default properties(i.e. tag <p> has margin top and bottom) always remove default styling from tags that you use 
+https://www.w3schools.com/cssref/css_default_values.asp
+*/
 .details {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   /* try not to use % with px in one css, read about margin: auto; */
-  margin-right: 400px;
-  margin-left: 400px;
+  margin-right: 400px; /* margin: auto; */
+  margin-left: 400px;  /* margin: auto; */
   padding: 15px;
   background-color: #e7fdf2;
 }
